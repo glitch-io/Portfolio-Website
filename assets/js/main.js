@@ -190,3 +190,21 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+//Email
+function sendEmail() {
+  Email.send({
+    SecureToken: "718bf4a8-e1d7-4b5e-8577-462571d822ae",
+    To: "bharat2chanewal@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "New Query From Website",
+    Body:
+      "Name : " +
+      document.getElementById("name").value +
+      "<br>E-mail :" +
+      document.getElementById("email").value +
+      "<br>Project :" +
+      document.getElementById("project").value +
+      "<br>Message :" +
+      document.getElementById("message").value,
+  }).then((message) => alert("Message Sent Successfully"));
+}
