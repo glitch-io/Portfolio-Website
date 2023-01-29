@@ -189,8 +189,8 @@ themeButton.addEventListener("click", () => {
 //Email
 function sendEmail() {
   Email.send({
-    SecureToken: "564ff639-fa58-46f0-9d19-865e4bb3da1f",
-    To: "admin@bharatkumar.me",
+    SecureToken: "40c4d674-0f18-4c38-b055-7114ca763a48",
+    To: "bharat2chanewal@gmail.com",
     From: document.getElementById("email").value,
     Subject: "New Query From Website",
     Body:
