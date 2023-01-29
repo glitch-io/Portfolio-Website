@@ -190,7 +190,7 @@ themeButton.addEventListener("click", () => {
 function sendEmail() {
   Email.send({
     SecureToken: "564ff639-fa58-46f0-9d19-865e4bb3da1f",
-    To: "bharat2chanewal@gmail.com",
+    To: "admin@bharatkumar.me",
     From: document.getElementById("email").value,
     Subject: "New Query From Website",
     Body:
