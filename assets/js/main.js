@@ -219,3 +219,4 @@ var typed = new Typed(".home__subtitle", {
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true
+              }
