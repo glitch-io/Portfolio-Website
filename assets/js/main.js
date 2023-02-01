@@ -212,3 +212,10 @@ document.addEventListener("mousemove", function (e) {
   cursor.style.cssText = cursor2.style.cssText =
     "left:" + e.clientX + "px; top:" + e.clientY + "px;";
 });
+//Typing
+
+var typed = new Typed(".home__subtitle", {
+    strings: ["", "Web Designer", "Web Developer", "App Developer],
+    typeSpeed: 100,
+    BackSpeed: 60,
+    loop: true
